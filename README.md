@@ -110,6 +110,3 @@ All this while ensuring:
 
 ---
 
-Good luck for the hackathon
-
-Happy Learning :)
