@@ -1,10 +1,17 @@
-#!/bin/bash
-  set -e
+#!/usr/bin/env bash
 
-  # Stop any running Docker container
-  containerid=$(docker ps -q)
-  if [ -n "$containerid" ]; then
-    docker stop $containerid && docker rm -f $containerid
-  else
-    echo "No running containers to remove."
-  fi
+set -euo pipefail
+
+CONTAINER_NAME="${CONTAINER_NAME:-online-shopping-app}"
+
+if docker ps -a \
+  --format '{{.Names}}' \
+  | grep -Fxq "$CONTAINER_NAME"; then
+
+  echo "Stopping and removing container: $CONTAINER_NAME"
+  docker rm -f "$CONTAINER_NAME"
+  echo "Container removed successfully."
+
+else
+  echo "No container named $CONTAINER_NAME was found."
+fi
