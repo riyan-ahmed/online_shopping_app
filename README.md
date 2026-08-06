@@ -157,11 +157,6 @@ Amazon EC2 deployment
 
 ---
 
-## Video Demonstration
-
-[Watch the project demonstration](https://www.dropbox.com/scl/fi/06xq03rkx56hiak1080bo/videoDemo.mp4?dl=0&rlkey=dje3ntpcd9zc3rzz1a1canhch&st=1vsn8k90)
-
----
 
 ## Getting Started
 
