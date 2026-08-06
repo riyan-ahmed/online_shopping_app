@@ -54,7 +54,7 @@ The application was containerised with Docker, managed using Docker Compose, sca
 
 ---
 
-# STAR Project Summary
+# Project Summary
 
 ## Situation
 
