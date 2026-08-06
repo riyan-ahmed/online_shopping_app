@@ -93,7 +93,7 @@ All this while ensuring:
 
 ---
 
-### Result / Resume
+### Result
 
 - Successfully deployed the `Online Shopping Portal` on the internet using DevOps automation tools.
 - Improved `deployment speed by 50% `and reduced `Docker image size by 1GB` using multi-stage builds.
